@@ -186,13 +186,11 @@ p {
 }
 #pic-container img {
   height: 200px;
-  transform: rotate(90deg);
   margin-top: 20px;
 }
 @media (max-width: 500px) {
   #pic-container img {
     height: 200px;
-    transform: rotate(90deg);
     margin-top: 20px;
   }
 }
