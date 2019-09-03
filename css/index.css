@@ -189,6 +189,7 @@ p {
 @media (max-width: 500px) {
   #pic-container img {
     height: 200px;
+    transform: rotate(180deg);
     margin-top: 20px;
   }
 }
