@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Russo One", sans-serif;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  border: 2px solid yellow;
+  text-align: center;
+  max-height: fit-content;
+}
+#pic-container {
+  border: 2px solid red;
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  #pic-container {
+    width: 100%;
+  }
+  #pic-container h2 {
+    font-size: 2rem;
+  }
+}
+#pic-container h2 {
+  margin: 40px;
+}
+#pic-container img {
+  height: 200px;
+  transform: rotate(90deg);
+  margin-top: 20px;
+}
+.button-container {
+  border: 2px solid green;
+  width: 50%;
+  margin: 0 auto;
+  height: fit-content;
+}
+.button-container h1 {
+  font-size: 4rem;
+}
+@media (max-width: 500px) {
+  .button-container {
+    width: fit-content;
+    border: 1px solid blue;
+  }
+  .button-container h1 {
+    font-size: 2rem;
+  }
+}
+.button-container button {
+  border: none;
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-weight: bold;
+  background-color: crimson;
+  box-shadow: 0 9px #943232;
+  color: white;
+}
+.button-container button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

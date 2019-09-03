@@ -1,0 +1,62 @@
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  border: 2px solid yellow;
+  text-align: center;
+  max-height: fit-content;
+}
+
+#pic-container {
+  border: 2px solid red;
+  height: auto;
+  width: 50%;
+  margin: 0 auto;
+  @media @phone {
+    width: 100%;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  h2 {
+    margin: 40px;
+  }
+  img {
+    height: 200px;
+    transform: (rotate(90deg));
+    margin-top: 20px;
+  }
+}
+
+.button-container {
+  border: 2px solid green;
+  h1 {
+    font-size: 4rem;
+  }
+  width: 50%;
+  margin: 0 auto;
+  height: fit-content;
+  @media @phone {
+    width: fit-content;
+    border: 1px solid blue;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  button {
+    border: none;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+    background-color: crimson;
+    box-shadow: 0 9px rgb(148, 50, 50);
+    color: white;
+  }
+
+  button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}
